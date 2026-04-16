@@ -1,14 +1,3 @@
---[[
-	
-	Gui2Lua Winning! ~ Ch0nky Code:tm:
-	
-	61 instances
-	
-	-> shared.gv2.require("main").printChangelogs()
-	
-]]
---
-
 local tbl = {
 	BSSTools_WindUI = Instance.new("LocalScript"),
 	components = Instance.new("Folder"),
