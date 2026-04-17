@@ -15642,7 +15642,7 @@ return (function()
 	WindUI.UIScaleObj = UIScaleObj
 
 	WindUI.ScreenGui = New("ScreenGui", {
-		Name = "WindUI",
+		Name = HttpService:GenerateGUID(false),
 		Parent = GUIParent,
 		IgnoreGuiInset = true,
 		ScreenInsets = "None",
